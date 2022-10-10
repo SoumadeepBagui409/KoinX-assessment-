@@ -48,6 +48,8 @@ Please host your code on GitHub.
 
   This API shall return all the transaction for a given address 
 
+  example ->  /userInfo/0xce94e5621a5f7068253c42558c147480f38b5e0d
+
 #### Get User Balance and ether price (requested to provide the address in the API iteself)
 
 ```http
@@ -56,6 +58,8 @@ Please host your code on GitHub.
 
   This API shall return the user balance and ether price for a given 
   address
+
+ example ->  /userBalance/0xce94e5621a5f7068253c42558c147480f38b5e0d
 
   
 
