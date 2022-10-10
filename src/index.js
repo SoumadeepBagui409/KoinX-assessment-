@@ -8,7 +8,7 @@ const fetchTansaction = require('./app/routes/UserInfo');
 databaseConfig;
 app.use(express.urlencoded({extended: true}));
 app.get('/',(req,res)=>{
-    res.send("/userInfo");
+    res.send(" please check the readme provided in github https://github.com/SoumadeepBagui409/KoinX-assessment-");
 })
 app.use(fetchTansaction);
 app.get('/*',(req,res)=>{
