@@ -4,8 +4,7 @@
 
 A brief hoslitic view
 
-Its a complete server side project with no front-end implement with is
-It requested to have JSON FORMATTER tool in your sherch engine 
+it is a server side application hence requested please have JDON FORMATTER 
 
 A brief the Task 
 
