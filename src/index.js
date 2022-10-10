@@ -11,7 +11,9 @@ app.get('/',(req,res)=>{
     res.send("/userInfo");
 })
 app.use(fetchTansaction);
-
+app.get('/*',(req,res)=>{
+    res.send("please check the request made, prehaps problem in link detected");
+})
 app.listen(process.env.PORT || 3000,()=>{
     console.log("connected to server");
 })

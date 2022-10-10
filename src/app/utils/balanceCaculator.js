@@ -5,7 +5,9 @@ const totalBalance = async(userAddress,callback)=>{
         const userTransDB = await userTranzaction.findOne({accountNumber:userAddress});
         if(userTransDB==null){
             callback("notransaction for given address found ",undefined);
-        }
+        }else{
+
+    
         let balance = BigInt('0');
         for(let currTrans of userTransDB.transactions){
             if(currTrans.from===userAddress && currTrans.to!==userAddress){
@@ -16,6 +18,7 @@ const totalBalance = async(userAddress,callback)=>{
             }
         }
         callback(undefined,balance.toString());
+    }
     }catch(err){
         callback(err,undefined);
     } 
