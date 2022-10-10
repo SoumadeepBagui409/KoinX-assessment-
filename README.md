@@ -4,7 +4,7 @@
 
 A brief hoslitic view
 
-it is a server side application hence requested please have JDON FORMATTER 
+it is a server side application hence requested please have JSON FORMATTER 
 
 A brief the Task 
 
